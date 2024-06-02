@@ -1,0 +1,33 @@
+.taiwan {
+    flex: 4;
+}
+
+.taiwan svg {
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+.taiwan svg path {
+    stroke: rgb(216, 216, 216);
+    fill: cadetblue;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.taiwan svg path:hover {
+    fill: gold;
+}
+
+.tooltip {
+    font-size: 15px;
+    line-height: 20px;
+    height: 20px;
+    text-align:center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.393);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    pointer-events: none; /* 使其不会阻止鼠标事件 */
+    transform: translate(-50%, -100%); /* 使其在鼠标上方居中 */
+  }

@@ -1,5 +1,5 @@
 {
-  "name": "taiwanmap",
+  "name": "TaiwanDoctorPatientRatio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "csvtojson": "^2.0.10",
+    "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "eslint": "^8",
